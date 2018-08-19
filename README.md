@@ -33,6 +33,6 @@ $ cd .
 $ npm run dev:server
 ```
 
-By default, you can access the GraphQL API by visiting [http://localhost:3001](http://localhost:3001)
+By default, you can access the GraphQL API by visiting [http://localhost:3001/api](http://localhost:3001/api)
 
 ...
