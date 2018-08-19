@@ -1,0 +1,39 @@
+{
+  "name": "express-mongodb-graphql-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-server-express": "^2.0.3",
+    "bcrypt": "2.0.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "graphql": "^0.13.2",
+    "graphql-tools": "^3.1.1",
+    "helmet": "^3.13.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.8",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.9.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev:server": "nodemon ./server/index.js --exec \"node -r dotenv/config\""
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "npm-run-all": "^4.1.3"
+  }
+}
